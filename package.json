@@ -4,7 +4,7 @@
   "description": "Tdd exercise",
   "main": "index.js",
   "scripts": {
-    "test": "tape ./test/*.test.js"
+    "test": "instanbul cover tape ./test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "browserify": "^16.2.2",
     "istanbul": "^0.4.5",
-    "tape": "^4.9.0"
+    "tape": "^4.9.0",
+    "testling": "^1.7.1"
   }
 }
